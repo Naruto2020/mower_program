@@ -20,7 +20,7 @@ class Land {
         }
       });
     });
-    // on reinitialise le tableau 
+    // on genère un nouveau tableau avec les nouvelles positions 
     this.generateNewMap();
   }
 

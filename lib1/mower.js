@@ -33,7 +33,7 @@ class Mower extends EventEmitter {
   }
 
   /**
-   * on positione la tondeuse en paramètre 
+   * on déplace  la tondeuse vers la position  en paramètre 
    *  (position) la position à rejoindre
    */
   moveTo(position) {

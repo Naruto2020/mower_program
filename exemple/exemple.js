@@ -11,7 +11,7 @@ initialMowers.forEach((mower) => {
 });
 
 // affiche position finale 
-console.log('\nposition finale:');
+console.log('\n position finale:');
 const finalMowers = worker.resolve().getMowers();
 finalMowers.forEach((mower) => {
   console.log(`${mower.x} ${mower.y} ${mower.orientation}`);

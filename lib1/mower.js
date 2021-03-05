@@ -55,7 +55,7 @@ class Mower extends EventEmitter {
   }
 
   /**
-   * on change le status quand la tondeuse ne bouge plus
+   * on change le status quand la tondeuse a terminée 
    */
   end() {
     this.status = 'finished';

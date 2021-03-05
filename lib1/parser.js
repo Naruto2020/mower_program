@@ -17,6 +17,7 @@ const parseMowerPosition = (initialPositionLine) => {
     throw new Error(`ligne contenant la position initiale de la tondeuse invalide . devrais être 'X Y ORIENTATION'.. '${initialPositionLine}' trouvé.`);
   }
 
+  // grace à l'affectation par décomposition on ignore les éléments avant la position initiale 
   const [ , x, y, orientation] = initialPositionLine.match(initPositionLineRegex);
 
   return mowerFactory(x, y, orientation);
